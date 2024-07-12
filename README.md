@@ -4,8 +4,6 @@
 
 [Complete_System_Emission](https://drive.google.com/file/d/1IRkTykcuH0UFWD889sFt-ifwqnv6iaa8)
 
-<p align="Justify"> This workbook generates mill reports from mill's batches informations as chemichal compositions and mechanical properties.</p>
-
 ### *gerarCertificado()*
 
 <p align="Justify">Automates the process of importing data from a database Excel file into a certificate control spreadsheet. It starts by disabling screen updating and events to optimize performance. It sets a control variable GerarCertificadoAtiva to True and opens the database file BD_Certificados.xlsm. The code then activates the control spreadsheet Controle de Certificados.xlsm and sets a maximum value based on the number of entries in the MP batch from cell AC3 in the Soufer sheet. It clears specific cells for chemical composition and mechanical properties data.</p>
